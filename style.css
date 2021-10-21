@@ -1,0 +1,25 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 20px 20px;
+    text-align: center;
+}
+.form-label {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+#error {
+    color: red;
+    font-size: 18px;
+    display: none;
+    margin: 10px 0 0 10px;
+}
+#convertBtn {
+    margin-top: 25px;
+}
+#result {
+    border: 2px solid #0D6EFD;
+    border-radius: 3px;
+    padding: 6px;
+}

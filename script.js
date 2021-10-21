@@ -37,7 +37,7 @@ convertBtn.onclick = function () {
             result.innerText = "-"
         else
             result.innerText = "";
-        result.innerText += convert(number, fromBase, toBase);
+        result.innerText += convert(number, fromBase, toBase).toUpperCase();
         resultContainer.style.visibility = "visible";
     }
 }

@@ -46,7 +46,7 @@ function isValid(number, fromBase) {
     if (number[number.length - 1] === ".")
         return false
     if (number[0] === ".")
-        number = "0" + number;
+        number = String("0") + String(number);
     let dotCnt = 0;
     if (fromBase <= 10)
         for (const i in number) {
